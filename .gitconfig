@@ -1,0 +1,26 @@
+[user]
+	name = Juan Pablo Astorga
+	email = x@x.com
+[color]
+	ui = true
+	added = yellow
+	changed = green bold
+	untracked = cyan
+[color "diff"]
+	meta = yellow bold
+	new = green bold
+	old = red bold
+	frag = magenta bold
+	commit = yellow bold
+	whitespace = red reverse
+[color "diff-highlight"]
+	oldnormal = red bold
+	oldhighlight = red bold 52
+	newnormal = green bold
+	newhighlight = green bold 52
+[color "status"]
+	added = cyan
+	untracked = cyan
+	changed = yellow bold
+[core]
+	pager = 
