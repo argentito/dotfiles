@@ -3,9 +3,6 @@
 	email = x@x.com
 [color]
 	ui = true
-	added = yellow
-	changed = green bold
-	untracked = cyan
 [color "diff"]
 	meta = yellow bold
 	new = green bold
@@ -23,4 +20,6 @@
 	untracked = cyan
 	changed = yellow bold
 [core]
-	pager = 
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[push]
+	default = matching	
