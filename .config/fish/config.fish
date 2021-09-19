@@ -6,6 +6,7 @@ alias grep "grep --color=auto"
 #alias cat "ccat -G Plaintext="blink" -G Keyword="purple" -G String="darkgreen" -G Punctuation="brown" -G Comment="faint""
 alias ls "exa --group-directories-first"
 alias tree "exa -T"
+alias showmepkg 'pacman -Qi 2>&1 < /dev/null | awk "/^Name/{name=\$3} /^Version/{print name,\$3\$4}"'
 alias ver "fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 alias his "history | fzf --tac --no-sort"
 set PATH $PATH $HOME/.istioctl/bin
